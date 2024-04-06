@@ -1,0 +1,108 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+h2{
+  margin: 40px;
+}
+
+
+/* EJERCICIO 1 */
+#ejercicio1{
+  border: solid 10px black;
+}
+
+#container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+img {
+  cursor: pointer;
+  margin: 30px;
+}
+
+.border {
+  border: 2px solid red;
+}
+
+/* FIN DEL EJERCICIO 1 */
+
+/* Inicio ejercicio 2 */
+.container_text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input{
+  width: 200px;
+  text-align: center;
+  height: 30px;
+}
+
+.container-2{
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 20px;
+}
+
+#verificar{
+  width: 80px;
+  height: 30px;
+}
+
+/* Fin del ejercicio 2 */
+
+/* Inicia el ejercicio 3 */
+
+.box{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.box2{
+  display: flex;
+}
+
+.box3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+#ingresar {
+  width: 100px;
+  margin-bottom: 100px;
+  height: 30px;
+}
+
+select{
+  width: 70px;
+  text-align-last:center;
+  height: 30px;
+}
